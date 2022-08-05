@@ -21,8 +21,9 @@ function Contact() {
       );
   }
   return (
-    <div className="grid place-content-center h-full text-white">
-      <div className="flex justify-center items-center mb-20 ">
+    <div className="grid place-content-center h-full text-white sm:place-content-stretch">
+      {/* --------------------------------------------------------------- */}
+      <div className="flex justify-center items-center mb-20 sm:mb-1  ">
         <fieldset style={{ lineHeight: 0.4 }} className="border-4 rounded-md p-6">
           <legend style={{ padding: '5px' }}>Email</legend>
           <span style={{ fontSize: '20px' }}>andresat48@hotmail.com</span>
@@ -32,16 +33,16 @@ function Contact() {
             <ContentCopyIcon className="ml-3 " fontSize="large" />
           </button>
           <div
-            className={`flex justify-center items-center absolute left-12 top-0 transform transition duration-900 ${
-              hidden ? 'opacity-0' : 'opacity-100'
-            } `}
+            className={`flex justify-center items-center absolute left-12 top-0 transform transition duration-900 ${hidden ? 'opacity-0' : 'opacity-100'
+              } `}
           >
             <CheckIcon className="" />
-            <p className="whitespace-nowrap">Copied to clipboard</p>
+            <p className="absolute -left-40 whitespace-nowrap">Copied to clipboard</p>
           </div>
         </div>
       </div>
-      <div className="flex gap-28 ">
+      {/* --------------------------------------------------------------- */}
+      <div className="flex gap-28 sm:gap-3 sm:flex-col sm:items-center sm:align ">
         <div className="flex text-8xl gap-8 ">
           <a
             data-tooltip="Go to my Linkedin"
@@ -60,9 +61,10 @@ function Contact() {
             <GitHubIcon fontSize="" />
           </a>
         </div>
+        {/* --------------------------------------------------------------- */}
         <div className="flex items-start ">
           <div className="relative">
-            <img src={Resume} className="h-28 relative " alt="Resume" />
+            <img src={Resume} className="h-28 relative object-cover" alt="Resume" />
           </div>
           <div className="text-center text-6xl flex flex-col" style={{ lineHeight: '0' }}>
             <a data-tooltip="Open my Resume" href="/src/assets/Resume.pdf" target="_blank ">

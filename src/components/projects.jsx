@@ -30,7 +30,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="flex items-center  gap-8  p-8  h-full relative">
+    <div className="p-3 lg:flex  lg:items-center lg:gap-7 h-full">
       {projects.map((project, index) => (
         <div key={index}>
           <DemoCard {...project} />

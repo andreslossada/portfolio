@@ -2,7 +2,7 @@ import React from 'react';
 import '../project-card/project-card.css';
 function DemoCard({ name, description, image, url }) {
   return (
-    <figure className="snip0019">
+    <figure className="snip0019 mb-3">
       <img src={image} />
       <figcaption>
         <div>

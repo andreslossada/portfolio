@@ -26,7 +26,7 @@ function TabContainer() {
   }
 
   return (
-    <div>
+    <div className=''>
       <Tabs
         value={value}
         onChange={handleChange}
@@ -46,6 +46,7 @@ function TabContainer() {
         <Tab label={<TabIcon icon={<EmailIcon />} tooltip="Contact" />} />
       </Tabs>
       <SwipeableViews
+        className=''
         index={value}
         onChangeIndex={handleChangeIndex}
         enableMouseEvents
