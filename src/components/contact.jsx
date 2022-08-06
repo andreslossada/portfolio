@@ -37,7 +37,7 @@ function Contact() {
               } `}
           >
             <CheckIcon className="" />
-            <p className="absolute -left-40 whitespace-nowrap">Copied to clipboard</p>
+            <p className="absolute  whitespace-nowrap -top-11 -left-11">Copied</p>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ function Contact() {
             <img src={Resume} className="h-28 relative object-cover" alt="Resume" />
           </div>
           <div className="text-center text-6xl flex flex-col" style={{ lineHeight: '0' }}>
-            <a data-tooltip="Open my Resume" href="/src/assets/Resume.pdf" target="_blank ">
+            <a data-tooltip="Open my Resume" href="/Resume.pdf" target="_blank ">
               <FileDownloadOutlinedIcon fontSize="" className="transform transition duration-300 hover:scale-105" />
             </a>
             <span className="text-xs">(62KB)</span>
