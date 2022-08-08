@@ -2,6 +2,7 @@ import React from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import SwipeableViews from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils'
 import Projects from './projects';
 // import { HomeIcon, WorkIcon, CodeIcon, EmailIcon } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
@@ -13,6 +14,8 @@ import TabIcon from './tab-icon/tabIcon';
 import Contact from './contact';
 import { Homecard } from './homecard';
 import './tab-icon/tab-icon.scss';
+
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function TabContainer() {
   const [value, setValue] = React.useState(0);
@@ -45,7 +48,7 @@ function TabContainer() {
         <Tab label={<TabIcon icon={<CodeIcon />} tooltip="Skills" />} />
         <Tab label={<TabIcon icon={<EmailIcon />} tooltip="Contact" />} />
       </Tabs>
-      <SwipeableViews
+      <BindKeyboardSwipeableViews
         className=''
         index={value}
         onChangeIndex={handleChangeIndex}
@@ -58,7 +61,7 @@ function TabContainer() {
         <Projects />
         <Skills />
         <Contact />
-      </SwipeableViews>
+      </BindKeyboardSwipeableViews>
     </div>
   );
 }

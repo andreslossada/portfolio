@@ -1,5 +1,5 @@
 import React from 'react';
-import AndresImage from '../assets/images/portrait2.png';
+import AndresImage from '../assets/images/andresl2.png';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 
 export function Homecard() {
@@ -12,10 +12,10 @@ export function Homecard() {
           <p className="text-4xl sm:text-2xl sm:whitespace-nowrap">Frontend Developer</p>
         </div>
       </div>
-      <div className="sm:w-full  w-2/5 h-full  flex justify-center items-center">
+      <div className="sm:w-full  w-2/5 h-full  flex justify-center items-center ">
         <img
           src={AndresImage}
-          className=" object-cover h-96"
+          className=" object-cover h-96 contrast-100 dark:contrast-100 "
           alt="Andres"
           style={{ clipPath: 'polygon(0 0, 100% 0, 90% 80%, 50% 100%, 10% 80%)' }}
         />
