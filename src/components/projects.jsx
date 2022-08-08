@@ -1,6 +1,6 @@
-import Forky from '../assets/imgs/forky.jpg';
-import Crown from '../assets/imgs/crown.jpg';
-import Omnifood from '../assets/imgs/omnifood.jpg';
+import Forky from '../assets/images/forky.jpg';
+import Crown from '../assets/images/crown.jpg';
+import Omnifood from '../assets/images/omnifood.jpg';
 import DemoCard from './project-card/DemoCard';
 
 const projects = [

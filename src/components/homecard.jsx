@@ -1,5 +1,5 @@
 import React from 'react';
-import AndresImage from '../assets/imgs/portrait2.png';
+import AndresImage from '../assets/images/portrait2.png';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 
 export function Homecard() {
