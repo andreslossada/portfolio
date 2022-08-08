@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'dark': "url('src/assets/images/subtle-prism-dark.svg')",
-        'light': "url('src/assets/images/subtle-prism.svg')",
+        'dark': "url('https://raw.githubusercontent.com/dresan22/portfolio/0804ac795fe11a24b9a22986b7b1d94f1fd77b92/src/assets/images/subtle-prism-dark.svg')",
+        'light': "url('https://raw.githubusercontent.com/dresan22/portfolio/0804ac795fe11a24b9a22986b7b1d94f1fd77b92/src/assets/images/subtle-prism.svg')",
 
       },
     },
