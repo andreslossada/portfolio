@@ -63,7 +63,7 @@ export default function DarkMode({ children }) {
         setIsDark(event.target.checked);
     };
     return (
-        <div className={`${isDark ? 'dark' : ''} relative`} >
+        <div className={`${isDark ? 'dark' : ''} relative `} >
             <FormControlLabel
                 onChange={handleChange}
                 control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}

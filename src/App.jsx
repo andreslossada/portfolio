@@ -5,7 +5,7 @@ import DarkMode from './components/darkmode/darkmode';
 function App() {
   return (
     <DarkMode>
-      <div className={`grid place-items-center h-screen  sm:flex  duration-200 bg-hero-light dark:bg-hero-dark`}>
+      <div className={`grid place-items-center h-screen  sm:flex  duration-1000 bg-hero-light bg-slate-700 dark:bg-hero-dark bg-cover`}>
         <div className="w-1/2 sm:w-full sm:h-4/5 md:w-4/5 lg:w-1/2 backdrop-blur-md shadow-xl  ">
           <TabContainer />
         </div>
