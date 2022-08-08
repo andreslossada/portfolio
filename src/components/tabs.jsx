@@ -35,7 +35,7 @@ function TabContainer() {
           style: {
             top: 0,
             height: '4px',
-            backgroundColor: 'white',
+            backgroundColor: '#475569',
             opacity: '.8',
           },
         }}

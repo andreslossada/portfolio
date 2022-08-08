@@ -4,9 +4,9 @@ import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArro
 
 export function Homecard() {
   return (
-    <div className="relative flex justify-between  self-stretch text-white h-full sm:flex-col  sm:items-center sm:p-3 ">
+    <div className="relative flex justify-between  self-stretch  h-full sm:flex-col  sm:items-center sm:p-3 ">
       <div className=" grid place-items-center w-3/5 text-left   ">
-        <div className="p-10 sm:p-2 font-extrabold text-transparent  bg-clip-text bg-gradient-to-br from-white to-green-400 drop-shadow-lg ">
+        <div className="p-10 sm:p-2 font-extrabold text-transparent  bg-clip-text bg-gradient-to-br dark:from-white dark:to-green-200 from-slate-600 to-green-400 drop-shadow-lg ">
           <span className="text-7xl sm:text-6xl  whitespace-nowrap typing">Hello there.</span>
           <h1 className="text-7xl sm:text-4xl whitespace-nowrap ">I am Andres</h1>
           <p className="text-4xl sm:text-2xl sm:whitespace-nowrap">Frontend Developer</p>

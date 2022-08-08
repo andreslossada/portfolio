@@ -5,6 +5,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import Resume from '../assets/icons/cv3.png';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import CheckIcon from '@mui/icons-material/Check';
+import FilePresentIcon from '@mui/icons-material/FilePresent';
 
 function Contact() {
   const [hidden, setHidden] = React.useState(true);
@@ -21,10 +22,10 @@ function Contact() {
       );
   }
   return (
-    <div className="grid place-content-center h-full text-white sm:place-content-stretch">
+    <div className="grid place-content-center h-full text-slate-600 dark:text-white sm:place-content-stretch">
       {/* --------------------------------------------------------------- */}
       <div className="flex justify-center items-center mb-20 sm:mb-1  ">
-        <fieldset style={{ lineHeight: 0.4 }} className="border-4 rounded-md p-6">
+        <fieldset style={{ lineHeight: 0.4 }} className="border-4 rounded-md p-6 dark:border-white border-slate-600">
           <legend style={{ padding: '5px' }}>Email</legend>
           <span style={{ fontSize: '20px' }}>andresat48@hotmail.com</span>
         </fieldset>
@@ -62,9 +63,9 @@ function Contact() {
           </a>
         </div>
         {/* --------------------------------------------------------------- */}
-        <div className="flex items-start ">
-          <div className="relative">
-            <img src={Resume} className="h-28 relative object-cover" alt="Resume" />
+        <div className="flex items-start text-8xl">
+          <div className="relative ">
+            <FilePresentIcon fontSize="" />
           </div>
           <div className="text-center text-6xl flex flex-col" style={{ lineHeight: '0' }}>
             <a data-tooltip="Open my Resume" href="https://drive.google.com/file/d/1zk6gzvYPv-vOJu7_hXWwR5cy49AOACBB/view?usp=sharing" target="_blank ">

@@ -1,10 +1,12 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
 
   theme: {
     extend: {
       backgroundImage: {
-        'cool-background': "url('./src/assets/imgs/cool-background.svg')",
+        'hero-light': "url('./src/assets/imgs/subtle-prism.svg')",
+        'hero-dark': "url('./src/assets/imgs/subtle-prism-dark.svg')",
       },
     },
     screens: {
