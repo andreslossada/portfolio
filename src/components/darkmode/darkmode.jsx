@@ -2,13 +2,10 @@
 
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
-import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
 
-const MaterialUISwitch = styled(Switch)(({ theme, isDark }) => ({
+const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     width: 62,
     height: 34,
     padding: 7,
@@ -61,9 +58,6 @@ export default function DarkMode({ children }) {
 
     const [isDark, setIsDark] = React.useState(true);
 
-    const handleClick = () => {
-        setIsDark(!isDark);
-    }
 
     const handleChange = (event) => {
         setIsDark(event.target.checked);
