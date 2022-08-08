@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-light': "url('./src/assets/imgs/subtle-prism.svg')",
-        'hero-dark': "url('./src/assets/imgs/subtle-prism-dark.svg')",
-        'mountains': "url('./src/assets/imgs/flat-mountains.svg')",
+        'hero-light': "url('src/assets/imgs/subtle-prism.svg')",
+        'hero-dark': "url('src/assets/imgs/subtle-prism-dark.svg')",
+        'mountains': "url('src/assets/imgs/flat-mountains.svg')",
       },
     },
     screens: {
