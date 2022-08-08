@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'dark': "url('src/assets/images/flat-mountains.svg')",
+        'dark': "url('src/assets/images/flat-mountains.png')",
         // 'light': "url('src/assets/images/subtle-prism.svg')",
         'light': "url('src/assets/images/flat-mountains-light.svg')",
 
