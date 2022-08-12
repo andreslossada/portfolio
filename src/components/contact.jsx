@@ -68,7 +68,7 @@ function Contact() {
             <FilePresentIcon fontSize="" />
           </div>
           <div className="text-center text-6xl flex flex-col" style={{ lineHeight: '0' }}>
-            <a data-tooltip="Open my Resume" href="https://drive.google.com/file/d/1zk6gzvYPv-vOJu7_hXWwR5cy49AOACBB/view?usp=sharing" target="_blank ">
+            <a data-tooltip="Open my Resume" href="https://drive.google.com/file/d/1vVgpnruSe0MMazW0xhVIhyJd1RYD_GBG/view?usp=sharing" target="_blank ">
               <FileDownloadOutlinedIcon fontSize="" className="transform transition duration-300 hover:scale-105" />
             </a>
             <span className="text-xs">(62KB)</span>
