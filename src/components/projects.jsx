@@ -8,7 +8,7 @@ const projects = [
     name: 'Crown Clothing',
     description: 'E-comerce website. A clothing company',
     image: Crown,
-    url: 'https://crwn-dresan.herokuapp.com/',
+    url: 'https://andrescrwn.vercel.app/',
     position: ['top-84', 'left-1/4'],
   },
   {
