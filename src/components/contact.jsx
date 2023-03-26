@@ -34,8 +34,9 @@ function Contact() {
             <ContentCopyIcon className="ml-3 " fontSize="large" />
           </button>
           <div
-            className={`flex justify-center items-center absolute left-12 top-0 transform transition duration-900 ${hidden ? 'opacity-0' : 'opacity-100'
-              } `}
+            className={`flex justify-center items-center absolute left-12 top-0 transform transition duration-900 ${
+              hidden ? 'opacity-0' : 'opacity-100'
+            } `}
           >
             <CheckIcon className="" />
             <p className="absolute  whitespace-nowrap -top-11 -left-11">Copied</p>
@@ -68,7 +69,11 @@ function Contact() {
             <FilePresentIcon fontSize="" />
           </div>
           <div className="text-center text-6xl flex flex-col" style={{ lineHeight: '0' }}>
-            <a data-tooltip="Open my Resume" href="https://drive.google.com/file/d/1vVgpnruSe0MMazW0xhVIhyJd1RYD_GBG/view?usp=sharing" target="_blank ">
+            <a
+              data-tooltip="Open my Resume"
+              href="https://drive.google.com/file/d/1D2I1MtUDVX94bbSZeyBcU58WUOe7NAMJ/view?usp=share_link"
+              target="_blank "
+            >
               <FileDownloadOutlinedIcon fontSize="" className="transform transition duration-300 hover:scale-105" />
             </a>
             <span className="text-xs">(62KB)</span>
